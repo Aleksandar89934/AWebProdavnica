@@ -1,0 +1,204 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 11, 2020, 11:28:53 AM
+    Author     : Fix
+*/
+body {
+	margin: 0;
+	padding: 0;
+	background: #dcecf7;
+	font-family: sans-serif;
+}
+.cf::after{
+	content: "";
+	display: table;
+	clear: both;
+}
+h1{
+	font-size:30px;
+	text-align:center;
+}
+h2{
+	font-size:26px;
+	padding: 5px;
+}
+a:link,
+a:visited {
+	color:#8994c7;
+	text-decoration: none;
+}
+a:hover {
+	color:#262c4a;
+	text-decoration: underline;
+}
+#wrapper{
+	width: 950px;
+	background: #FFFFFF;
+	margin: 0 auto 30px;
+	padding: 15px;
+	box-shadow: 0 4px 8px 6px rgba(0,0,0,0.4);
+	border-radius: 4px;
+}
+
+#header {
+  	background-image: linear-gradient(to right, #041724 , #c9e3f5);
+	margin-bottom: 15px;
+	padding: 10px;
+	overflow: hidden;
+	
+}
+#logo{
+	float: left;
+        
+}
+#logo img{
+	box-shadow: 10px 10px 50px 0px;
+	border-radius: 0 5px 5px 0;
+        width: 150px;
+}
+#slogan{
+	float: right;
+        color: red;
+}
+#slogan p{
+	font-style: italic;
+}
+#nav {
+	height: 60px;
+	background: #555555;
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+#nav ul{
+	margin:0;
+	padding: 0;
+	list-style: none;
+}
+#nav ul li{
+	float: left;
+
+}
+#nav ul li a{
+	display: block;
+	padding: 10px 15px;
+	height: 40px;
+	line-height: 40px;
+	
+}
+#nav ul li a:link,
+#nav ul li a:visited
+{
+	color: #FFF;
+	text-decoration: none;
+}
+
+#nav ul li a:hover{
+	color: #000;
+	background: #26c9a3;
+}
+#nav ul li a:active{
+	color: #000;
+	background: #EEE;
+}
+#central{
+	overflow: hidden;
+}
+#usersTable{
+    margin: 20px;
+    padding: 20px;
+    
+    
+}
+#main{
+	float: left;
+	background: #E6E6E6;
+	width: 950px;
+	margin-bottom: 15px;	
+}
+#main h1{
+	text-align: center;
+}
+#div-img{
+	width: 630px;
+	padding: 10px;
+	font-style: italic;
+	font-size: 12px;
+}
+#div-img p{
+	margin-top: 0px;
+	padding: 15px;
+}
+
+#galery{
+	text-align: center;
+	width: 895px;
+	margin: 15px;
+	padding: 10px;
+	
+}
+#galery div{
+	padding: 15px;
+	margin-bottom: 15px;
+	border: 0.5px dotted #797b91;
+}
+#galery div img{
+	width: 420px;
+}
+
+#main p{
+	padding: 5px;
+}
+#footer {
+	height: 25px;
+	background: #dee3e3;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+#footer p{
+	padding: 5px;
+	font-size: 14px;
+	font-style: italic;
+	text-align: center;
+}
+#login-form {
+    
+    border: 1px #041724 solid;
+    padding: 25px;
+    margin: 0px 300px 0px 300px;
+    float: left;
+    
+}
+#login-form input {
+    
+    margin: 10px 0px 10px 0px;
+}
+#userTable {
+    
+    border: 1px black solid;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+#userTable th {
+    border: 1px black solid;
+    margin: 10px;
+}
+#userTable td {
+    border: 1px black solid;
+    margin: 10px;
+}
+td.left {
+    text-align: left;
+	}
+#prikazProdaje {
+    
+    border: 1px black solid;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;    
+    
+        }
